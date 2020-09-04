@@ -1,0 +1,21 @@
+.wrapp{
+    background-color: #90b0d9;
+    
+
+
+    .nav-item .nav-link{
+        background-color: #6a8eb1;
+         color: #95b6d5; 
+
+        &:hover{
+            background-color: transparent;
+            color: #ffffff;
+        }
+
+    }
+
+    .header-logo{
+        width: 35rem;
+    }
+
+}
