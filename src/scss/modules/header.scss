@@ -1,8 +1,6 @@
-.wrapp{
+.bluelight-background{
     background-color: #90b0d9;
     
-
-
     .nav-item .nav-link{
         background-color: #6a8eb1;
          color: #95b6d5; 
@@ -14,8 +12,47 @@
 
     }
 
-    .header-logo{
-        width: 35rem;
+    a:focus{
+
+        outline: 1px solid #ffffff;
+        color: #ffffff;    
+        
+       
     }
+
+
+@include media-breakpoint-up(sm) { 
+
+    .navbar{
+      width: 100%;
+      background-color: #90b0d9;
+      position: absolute;
+        z-index: 1;
+    }
+
+    
+  
+    .header-logo{
+       
+        z-index: -1;
+        width: 50rem;
+    }
+  
+  }
+
+
+
+@include media-breakpoint-up(lg){
+
+    .navbar{
+        position: relative;
+       
+    }
+
+.header-logo{
+    margin-top: 0;
+    width: 35rem;
+}
+}
 
 }
